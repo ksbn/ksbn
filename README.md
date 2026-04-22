@@ -1,11 +1,8 @@
 <!-- HEADER -->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=ffb6c1&height=200&section=header&fontSize=40&fontColor=ffffff" />
-</p>
 <h2 align="center">Hi 👋 I'm Anastasiia</h2>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00C9FF&size=26&center=true&vCenter=true&width=600&lines=Frontend+Developer;Building+modern+web+apps;Open+to+Internships" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00C9FF&size=26&center=true&vCenter=true&width=600&lines=Frontend+Developer;Building+web+apps;Open+to+Internships" />
 </p>
 
 ---
