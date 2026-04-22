@@ -7,7 +7,7 @@
 
 ---
 
-## 🧠 About Me
+## About Me
 
 💻 Frontend Developer (in progress)
 🌍 Focused on building modern, responsive web apps
@@ -19,7 +19,7 @@
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" />
@@ -27,7 +27,7 @@
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### ☕ Starbucks Clone
 
@@ -41,7 +41,7 @@
 
 ---
 
-### 📺 TV Show App
+### TV Show App
 
 > JavaScript app working with API
 
