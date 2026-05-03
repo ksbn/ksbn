@@ -32,9 +32,14 @@ A responsive Starbucks landing page built with HTML & CSS.
 ### 📺 [TV Show Project](https://mc-ksbn-tv.netlify.app/)
 A JavaScript app to browse and search TV shows using an external API.
 
-### 🎵 [Music Data Project](https://music-data-project2026.netlify.app/)
+### 🔖 [Shared Bookmarks](https://project-shared-bookmarks-piscine.netlify.app/)
+A collaborative web app for saving, organizing, and sharing useful bookmarks and links with other users.
 
+### 🎵 [Music Data Project](https://music-data-project2026.netlify.app/)
 A JavaScript project for working with music data and API
+
+### 📊 [Job Tracker App](https://job-tracker-six-snowy.vercel.app/)
+A simple and intuitive job application tracker to help organize applications, track statuses, and manage job search efficiently.
 
 ---
 
