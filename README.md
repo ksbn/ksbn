@@ -41,6 +41,9 @@ A JavaScript project for working with music data and API
 ### 📊 [Job Tracker App](https://job-tracker-six-snowy.vercel.app/)
 A simple and intuitive job application tracker to help organize applications, track statuses, and manage job search efficiently.
 
+### 🎿 [Ski Snow App](https://ski-snow-app-44nceeyd2bhpfjx2npehba.streamlit.app/)
+Python desktop app showing real-time snow conditions for any ski resort
+
 ---
 
 ## GitHub Stats
