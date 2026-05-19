@@ -48,10 +48,6 @@ Python desktop app showing real-time snow conditions for any ski resort
 ## GitHub Stats
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=ksbn&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
-    height="165"
-  />
 
   <img
     src="https://streak-stats.demolab.com?user=ksbn&theme=tokyonight&hide_border=true"
