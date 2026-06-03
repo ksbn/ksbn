@@ -50,7 +50,7 @@ Python desktop app showing real-time snow conditions for any ski resort
 <p align="center">
 
   <img
-    src="https://streak-stats.demolab.com?user=ksbn&theme=tokyonight&hide_border=true"
+    src="https://streak-stats.demolab.com/?user=ksbn&theme=tokyonight&hide_border=true"
     height="165"
   />
 </p>
