@@ -45,16 +45,11 @@ A simple and intuitive job application tracker to help organize applications, tr
 Python desktop app showing real-time snow conditions for any ski resort
 
 ---
-## GitHub Stats
+## 📈 Activity
 
 <p align="center">
-
-  <img
-    src="https://streak-stats.demolab.com/?user=ksbn&theme=tokyonight&hide_border=true"
-    height="165"
-  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ksbn&theme=tokyo-night&hide_border=true" />
 </p>
----
 
 ## Contribution Snake
 
