@@ -44,12 +44,6 @@ A simple and intuitive job application tracker to help organize applications, tr
 ### 🎿 [Ski Snow App](https://ski-snow-app-44nceeyd2bhpfjx2npehba.streamlit.app/)
 Python desktop app showing real-time snow conditions for any ski resort
 
----
-## 📈 Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ksbn&theme=tokyo-night&hide_border=true" />
-</p>
 
 ## Contribution Snake
 
