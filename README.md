@@ -1,29 +1,41 @@
 # Hi there, I'm Anastasiia 👋
 
-I'm a junior software developer in training, passionate about building clean and accessible web experiences. Currently focused on growing my skills and looking for my first professional opportunity in tech.
+I'm a **Full-Stack Software Engineer** based in Spain, specializing in high-throughput backend services, real-time data streaming architectures, and modern web applications. Currently building telemetry and web platforms with **FastAPI, Python, JavaScript, and PostgreSQL**.
+---
+
+### ⚡ Featured Portfolio Projects
+
+#### 🏁 [F1 Live Telemetry & Race Tracking Platform](https://github.com/ksbn/F1-race-tracking-app)
+> **Full-Stack Automotive & Motorsport Data Platform**
+* **Tech:** FastAPI, Server-Sent Events (SSE), WebSockets, Python, Chart.js, HTML5/CSS3
+* **Features:** Async polling pipeline consuming OpenF1 & Jolpica APIs with rate-limit resiliency, dynamic timing tower, tire degradation analytics, and multi-driver telemetry comparison charts.
+* **Architecture:** Built for low-latency distribution with exponential backoff handling for high-frequency REST/SSE streaming.
 
 ---
 
-## 🚀 About Me
+### 🛠️ Tech Stack & Tools
 
-- 🌱 Currently learning **HTML, CSS, JavaScript & Python**
-- 💻 Building projects through **MigraCode Barcelona**
-- 🔍 Open to **junior developer** opportunities
-- 📍 Based in **Barcelona, Spain**
+**Languages & Backend Architecture**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
----
-
-## 🛠️ Tech Stack
-
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+**Data Protocols & DevOps**
+![SSE / WebSockets](https://img.shields.io/badge/Data_Streaming-SSE_%2F_WebSockets-red?style=flat-square)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
 ---
 
+### 📌 About Me
+
+* 🚀 **Building:** Production-grade full-stack apps through MigraCode Barcelona & open-source projects.
+* 📍 **Location:** Spain (Barcelona)
+* 💼 **Open to:** Junior Full-Stack / Backend Engineering roles (FastAPI, Python, Node/JS).
+* 📬 **Reach out:** [LinkedIn](https://www.linkedin.com/in/anastasiia-hlushkova-735475145//) • [Portfolio](https://github.com/ksbn)
 ## 📌 Featured Projects
 
 ### 🧋 [Starbucks Clone](https://curious-liger-cf5041.netlify.app/)
