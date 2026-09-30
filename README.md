@@ -1,15 +1,15 @@
 # Hi there, I'm Anastasiia 👋
 
-I'm a **Full-Stack Software Engineer** based in Spain, specializing in high-throughput backend services, real-time data streaming architectures, and modern web applications. Currently building telemetry and web platforms with **FastAPI, Python, JavaScript, and PostgreSQL**.
+<small>I'm a Full-Stack Software Engineer based in Spain, specializing in high-throughput backend services, real-time data streaming architectures, and modern web applications. Currently building telemetry and web platforms with FastAPI, Python, JavaScript, and SQLite / PostgreSQL.</small>
 ---
 
 ### ⚡ Featured Portfolio Projects
 
-#### 🏁 [F1 Live Telemetry & Race Tracking Platform](https://github.com/ksbn/F1-race-tracking-app)
-> **Full-Stack Automotive & Motorsport Data Platform**
-* **Tech:** FastAPI, Server-Sent Events (SSE), WebSockets, Python, Chart.js, HTML5/CSS3
-* **Features:** Async polling pipeline consuming OpenF1 & Jolpica APIs with rate-limit resiliency, dynamic timing tower, tire degradation analytics, and multi-driver telemetry comparison charts.
-* **Architecture:** Built for low-latency distribution with exponential backoff handling for high-frequency REST/SSE streaming.
+#### 🏎️ [F1 Live Tracker](https://github.com/ksbn/F1-race-tracking-app) • [Live Demo 🚀](https://f1-race-tracking-app.fly.dev)
+> **Full-Stack Motorsport Data & Live Telemetry Platform**
+* **Tech:** FastAPI, WebSockets, Python, SQLite, Vanilla JS, Docker, Fly.io
+* **Features:** Live timing tower, animated track map with SVG positions, race control feed, lap-time charts, and a custom **Replay Mode** for past sessions.
+* **Architecture:** In-memory state engine broadcasting 100ms updates via WebSockets, background poller with 429 rate-limit resilience, and Dockerized deployment on Fly.io.
 
 ---
 
@@ -35,7 +35,7 @@ I'm a **Full-Stack Software Engineer** based in Spain, specializing in high-thro
 * 🚀 **Building:** Production-grade full-stack apps through MigraCode Barcelona & open-source projects.
 * 📍 **Location:** Spain (Barcelona)
 * 💼 **Open to:** Junior Full-Stack / Backend Engineering roles (FastAPI, Python, Node/JS).
-* 📬 **Reach out:** [LinkedIn](https://www.linkedin.com/in/anastasiia-hlushkova-735475145//) • [Portfolio](https://github.com/ksbn)
+* 📬 **Reach out:** [LinkedIn](https://www.linkedin.com/in/anastasiia-hlushkova-735475145/) • [Portfolio](https://github.com/ksbn)
 ## 📌 Featured Projects
 
 ### 🧋 [Starbucks Clone](https://curious-liger-cf5041.netlify.app/)
