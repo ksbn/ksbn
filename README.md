@@ -1,6 +1,8 @@
 # Hi there, I'm Anastasiia 👋
 
 <small>I'm a junior Full-Stack Software Engineer based in Spain, specializing in high-throughput backend services, real-time data streaming architectures, and modern web applications. Currently building telemetry and web platforms with FastAPI, Python, JavaScript, and SQLite / PostgreSQL.</small>
+
+
 ---
 
 ### ⚡ Featured Portfolio Projects
