@@ -1,15 +1,15 @@
 # Hi there, I'm Anastasiia 👋
 
-<small>I'm a Full-Stack Software Engineer based in Spain, specializing in high-throughput backend services, real-time data streaming architectures, and modern web applications. Currently building telemetry and web platforms with FastAPI, Python, JavaScript, and SQLite / PostgreSQL.</small>
+<small>I'm a junior Full-Stack Software Engineer based in Spain, specializing in high-throughput backend services, real-time data streaming architectures, and modern web applications. Currently building telemetry and web platforms with FastAPI, Python, JavaScript, and SQLite / PostgreSQL.</small>
 ---
 
 ### ⚡ Featured Portfolio Projects
 
-#### 🏎️ [F1 Live Tracker](https://github.com/ksbn/F1-race-tracking-app) • [Live Demo 🚀](https://f1-race-tracking-app.fly.dev)
+#### 🏎️ [F1 Live Tracker](https://github.com/ksbn/F1-race-tracking-app) • [Live Demo 🚀](https://f1-race-tracking-app-production.up.railway.app/)
 > **Full-Stack Motorsport Data & Live Telemetry Platform**
-* **Tech:** FastAPI, WebSockets, Python, SQLite, Vanilla JS, Docker, Fly.io
+* **Tech:** FastAPI, WebSockets, Python, SQLite, Vanilla JS, Docker.
 * **Features:** Live timing tower, animated track map with SVG positions, race control feed, lap-time charts, and a custom **Replay Mode** for past sessions.
-* **Architecture:** In-memory state engine broadcasting 100ms updates via WebSockets, background poller with 429 rate-limit resilience, and Dockerized deployment on Fly.io.
+* **Architecture:** In-memory state engine broadcasting 100ms updates via WebSockets, background poller with 429 rate-limit resilience, and Dockerized deployment on Railway.
 
 ---
 
