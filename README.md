@@ -7,10 +7,10 @@
 
 ### ⚡ Featured Portfolio Projects
 
-#### 🏎️ [F1 Live Tracker](https://github.com/ksbn/F1-race-tracking-app) • [Live Demo 🚀](https://f1-race-tracking-app-production.up.railway.app/)
-> **Full-Stack Motorsport Data & Live Telemetry Platform**
+#### 🏎️ [F1 Race Tracker](https://github.com/ksbn/F1-race-tracking-app) • [Live Demo 🚀](https://f1-race-tracking-app-production.up.railway.app/)
+> **Full-Stack Motorsport Data & Telemetry Platform**
 * **Tech:** FastAPI, WebSockets, Python, SQLite, Vanilla JS, Docker.
-* **Features:** Live timing tower, animated track map with SVG positions, race control feed, lap-time charts, and a custom **Replay Mode** for past sessions.
+* **Features:** Timing tower, animated track map with SVG positions, race control feed, lap-time charts, and a custom **Replay Mode** for past sessions.
 * **Architecture:** In-memory state engine broadcasting 100ms updates via WebSockets, background poller with 429 rate-limit resilience, and Dockerized deployment on Railway.
 
 ---
