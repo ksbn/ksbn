@@ -1,9 +1,6 @@
 # Hi there, I'm Anastasiia 👋
 
 <small>I'm a Full-Stack Software Engineer based in Spain, specializing in high-throughput backend services, data streaming architectures, and modern web applications. </small>
-
-# 📍 Barcelona, Spain
-
 Crafting high-throughput backend systems and modern web platforms.
 
 - ⚡ **Focus:** Telemetry Engines • Data Streaming • Scalable Web Architecture
