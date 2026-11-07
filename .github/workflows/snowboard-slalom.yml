@@ -1,28 +1,26 @@
-name: Generate Snowboard Contribution Graph
+name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every night at midnight
+    - cron: "0 0 * * *" # Runs every 24 hours
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
-  generate:
+  build:
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-    runs-on: ubuntu-latest
+
     steps:
-      - name: Generate Snowboard Grid SVG
+      - name: Generate Snow & Ice Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snowboard-dark.svg?palette=github-dark&color_snake=%F0%9F%8F%82
-            dist/github-snowboard-light.svg?palette=github-light&color_snake=%F0%9F%8F%82
+            dist/github-snow-snake.svg?color_snake=%F0%9F%8F%82&color_dots=#ebedf0,#b6e3f4,#6bc5e8,#2ca0d2,#007bb6
+            dist/github-snow-snake-dark.svg?color_snake=%F0%9F%8F%82&color_dots=#161b22,#1b394a,#2b5c78,#3c83aa,#4eaedc
 
-      - name: Push SVGs to Output Branch
+      - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
