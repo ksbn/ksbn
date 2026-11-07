@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Snowboard Slalom
 
 on:
   schedule:
@@ -12,15 +12,25 @@ jobs:
       contents: write
 
     steps:
-      - name: Generate Custom Head SVG
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snow-snake.svg?color_snake=https://github.com/ksbn.png&color_dots=#ebedf0,#b6e3f4,#6bc5e8,#2ca0d2,#007bb6
-            dist/github-snow-snake-dark.svg?color_snake=https://github.com/ksbn.png&color_dots=#161b22,#1b394a,#2b5c78,#3c83aa,#4eaedc
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - uses: crazy-max/ghaction-github-pages@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Generate Custom Snowboard Slalom SVG
+        run: python .github/scripts/generate_snowboard.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+
+      - name: Deploy to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
