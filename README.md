@@ -59,6 +59,14 @@ I didn't start in a CS classroom. I learned to code because I wanted to build re
 
 ---
 
+### 🏂 Contribution Slalom
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snowboard-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snowboard-light.svg">
+  <img alt="Snowboarder contribution graph animation" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snowboard-dark.svg">
+</picture>
+
 ## Contribution Snake
 
 <p align="center">
