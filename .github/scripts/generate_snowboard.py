@@ -30,7 +30,6 @@ try:
     weeks = res["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
 except Exception as e:
     print(f"API Error or invalid response: {e}")
-    # Fallback empty week structure to prevent pipeline crash
     weeks = []
 
 def get_snow_color(count):
