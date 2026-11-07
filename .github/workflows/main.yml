@@ -23,7 +23,7 @@ jobs:
         run: pip install requests
 
       - name: Run Snowboard Generator
-        run: python .github/scripts/generate_snowboarder.py
+        run: python .github/scripts/generate_snowboard.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
