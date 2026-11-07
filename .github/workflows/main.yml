@@ -12,12 +12,13 @@ jobs:
       contents: write
 
     steps:
-      - name: Generate Custom Snowboarder SVG
+      - name: Generate Snowboarder Grid SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snowboard-slalom.svg?color_snake=%F0%9F%8F%82&color_dots=#ebedf0,#b6e3f4,#6bc5e8,#2ca0d2,#007bb6
+            dist/github-snowboard-slalom-dark.svg?color_snake=%F0%9F%8F%82&color_dots=#161b22,#1b394a,#2b5c78,#3c83aa,#4eaedc
 
       - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v4
