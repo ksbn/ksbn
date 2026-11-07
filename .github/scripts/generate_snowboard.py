@@ -78,10 +78,11 @@ vector_rider_sprite = """
 </g>
 """
 
+# Set animation duration to 35s for a smooth, relaxed speed
 svg_output = f"""<svg width="720" height="120" viewBox="0 0 720 120" xmlns="http://www.w3.org/2000/svg">
   <style>
     .slalom-runner {{
-      animation: slalomStep 30s steps(1, end) infinite alternate;
+      animation: slalomStep 35s steps(1, end) infinite alternate;
     }}
     @keyframes slalomStep {{
 {keyframes_str}
@@ -90,13 +91,10 @@ svg_output = f"""<svg width="720" height="120" viewBox="0 0 720 120" xmlns="http
   <g>
     {''.join(grid_rects)}
     <g class="slalom-runner">
-      {vector_rider_spec := vector_rider_sprite}
+      {vector_rider_sprite}
     </g>
   </g>
 </svg>"""
-
-# Clean variable syntax fix
-svg_output = svg_output.replace(f"{vector_rider_spec := vector_rider_sprite}", vector_rider_sprite)
 
 os.makedirs("dist", exist_ok=True)
 with open("dist/github-snowboard-slalom.svg", "w") as f:
