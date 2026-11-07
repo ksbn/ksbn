@@ -55,8 +55,9 @@ I didn't start in a CS classroom. I learned to code because I wanted to build re
 
 ---
 
-### 📬 **Reach out:** [LinkedIn](https://www.linkedin.com/in/anastasiia-hlushkova-735475145/) • [Email](glushkova.a.y@gmail.com)
+### 📬 **Reach out:** [LinkedIn](https://www.linkedin.com/in/anastasiia-hlushkova-735475145/) • [Email](mailto:glushkova.a.y@gmail.com)
 
+---
 
 ## Contribution Snake
 
