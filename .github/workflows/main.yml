@@ -12,22 +12,12 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Generate Custom Snowboarder SVG
+        uses: Platane/snk/svg-only@v3
         with:
-          python-version: "3.x"
-
-      - name: Install Dependencies
-        run: pip install requests
-
-      - name: Generate Custom Snowboard Slalom SVG
-        run: python .github/scripts/generate_snowboard.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snowboard-slalom.svg?color_snake=%F0%9F%8F%82&color_dots=#ebedf0,#b6e3f4,#6bc5e8,#2ca0d2,#007bb6
 
       - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v4
