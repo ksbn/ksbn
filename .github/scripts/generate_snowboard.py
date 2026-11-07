@@ -81,7 +81,7 @@ vector_rider_sprite = """
 svg_output = f"""<svg width="720" height="120" viewBox="0 0 720 120" xmlns="http://www.w3.org/2000/svg">
   <style>
     .slalom-runner {{
-      animation: slalomStep 15s steps(1, end) infinite alternate;
+      animation: slalomStep 30s steps(1, end) infinite alternate;
     }}
     @keyframes slalomStep {{
 {keyframes_str}
