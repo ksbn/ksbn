@@ -90,10 +90,13 @@ svg_output = f"""<svg width="720" height="120" viewBox="0 0 720 120" xmlns="http
   <g>
     {''.join(grid_rects)}
     <g class="slalom-runner">
-      {vector_rider_sprite}
+      {vector_rider_spec := vector_rider_sprite}
     </g>
   </g>
 </svg>"""
+
+# Clean variable syntax fix
+svg_output = svg_output.replace(f"{vector_rider_spec := vector_rider_sprite}", vector_rider_sprite)
 
 os.makedirs("dist", exist_ok=True)
 with open("dist/github-snowboard-slalom.svg", "w") as f:
