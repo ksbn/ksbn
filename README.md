@@ -1,18 +1,42 @@
-# Hi there, I'm Anastasiia 👋
+### 👤 Hi there, I'm Anastasia 👋
 
-<small>I'm a Full-Stack Software Engineer based in Spain, specializing in high-throughput backend services, data streaming architectures, and modern web applications. Currently building telemetry and web platforms with FastAPI, Python, JavaScript, and SQLite / PostgreSQL. </small>
+> *Full-Stack Software Engineer driven by music, fast cars, and low-latency code.*
+
+* 📍 Based in Spain
+* 🏎️ Building real-time telemetry engines and high-throughput backend services
+* 🤝 Looking to collaborate on: Data streaming platforms, WebSocket architecture & telemetry tooling
+* 💬 Ask me about: Python, FastAPI, WebSockets, rate-limit resilience & F1 telemetry
+* 🏎️ Favorite tracks: Spa-Francorchamps, Nürburgring
+
+I didn't start in a CS classroom. I learned to code because I wanted to build real, dynamic systems. Coming from a background in operations and executive support, I naturally gravitate toward speed, rhythm, and precision in software engineering.
+
+**What I bring to the table:**
+- 🏎️ **Backend Architecture:** Designing high-throughput, rate-limit resilient telemetry engines with Python & FastAPI.
+- ⚡ **Real-Time Web:** Delivering sub-second data streaming straight to crisp frontend UIs using WebSockets & JavaScript.
+- 🛠️ **Production Mindset:** Containerizing apps with Docker and managing efficient database schemas (PostgreSQL / SQLite).
 
 ---
 
-### ⚡ Featured Portfolio Projects
+### 🛠️ Featured Builds
 
-#### 🏎️ [F1 Race Tracker](https://github.com/ksbn/F1-race-tracking-app) • [Live Demo 🚀](https://f1-race-tracking-app.onrender.com/)
-> **Full-Stack Motorsport Data & Telemetry Platform**
-* **Tech:** FastAPI, WebSockets, Python, SQLite, Vanilla JS, Docker.
-* **Features:** Timing tower, animated track map with SVG positions, race control feed, lap-time charts, and a custom **Replay Mode** for past sessions.
-* **Architecture:** In-memory state engine broadcasting 100ms updates via WebSockets, background poller with 429 rate-limit resilience, and Dockerized deployment on Render.
+* **🏎️ [F1 Race Tracker](https://f1-race-tracking-app.onrender.com/)**  
+  *Motorsport Data & Telemetry Platform* — 100ms WebSocket state engine, track map, weather analytics & session replays. *(Python, FastAPI, WebSockets, JS, Docker)*
 
----
+* **❄️ [Ski Snow Tracker](https://ski-snow-app-44nceeyd2bhpfjx2npehba.streamlit.app/)**  
+  *Mountain Conditions Streamer* — Real-time desktop app tracking snow depths & resort weather. *(Python)*
+
+* **🥩 [Amino Plate](https://calc-my-protein-amino-app.vercel.app/)**  
+  *Nutritional Profile Analyzer* — Web tool tracking protein and essential amino acid balances. *(JS, HTML)*
+
+* **💼 [Job Tracker](https://job-tracker-six-snowy.vercel.app/)**  
+  *Pipeline Manager* — Dashboard for organizing application pipelines. *(JS)*
+
+* **🎙️ [Voice AI Assistant](https://voice-assistant-gray.vercel.app/)**  
+  *Voice Interface* — Interactive voice-command processing platform. *(JS, HTML)*
+
+* **💳 [Bill Splitter](https://pet-project-bill-split.vercel.app/)**  
+  *Expense Engine* — Quick expense partition utility. *(JS)*
+
 
 ### 🛠️ Tech Stack & Tools
 
@@ -31,31 +55,7 @@
 
 ---
 
-### 📌 About Me
-
-* 🚀 **Building:** Production-grade full-stack apps through MigraCode Barcelona & open-source projects.
-* 📍 **Location:** Spain (Barcelona)
-* 💼 **Open to:** Junior Full-Stack / Backend Engineering roles (FastAPI, Python, Node/JS).
-* 📬 **Reach out:** [LinkedIn](https://www.linkedin.com/in/anastasiia-hlushkova-735475145/) • [Portfolio](https://github.com/ksbn)
-## 📌 Featured Projects
-
-### 🧋 [Starbucks Clone](https://curious-liger-cf5041.netlify.app/)
-A responsive Starbucks landing page built with HTML & CSS.
-
-### 📺 [TV Show Project](https://mc-ksbn-tv.netlify.app/)
-A JavaScript app to browse and search TV shows using an external API.
-
-### 🔖 [Shared Bookmarks](https://project-shared-bookmarks-piscine.netlify.app/)
-A collaborative web app for saving, organizing, and sharing useful bookmarks and links with other users.
-
-### 🎵 [Music Data Project](https://music-data-project2026.netlify.app/)
-A JavaScript project for working with music data and API
-
-### 📊 [Job Tracker App](https://job-tracker-six-snowy.vercel.app/)
-A simple and intuitive job application tracker to help organize applications, track statuses, and manage job search efficiently.
-
-### 🎿 [Ski Snow App](https://ski-snow-app-44nceeyd2bhpfjx2npehba.streamlit.app/)
-Python desktop app showing real-time snow conditions for any ski resort
+### 📬 **Reach out:** [LinkedIn](https://www.linkedin.com/in/anastasiia-hlushkova-735475145/) • [Email](glushkova.a.y@gmail.com)
 
 
 ## Contribution Snake
