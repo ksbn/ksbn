@@ -5,7 +5,7 @@
 * 📍 Based in Spain
 * 🏎️ Building real-time telemetry engines and high-throughput backend services
 * 🤝 Looking to collaborate on: Data streaming platforms, WebSocket architecture & telemetry tooling
-* 💬 Ask me about: Python, FastAPI, WebSockets, rate-limit resilience & F1 telemetry
+* 💬 Ask me about: everything
 * 🏎️ Favorite tracks: Spa-Francorchamps, Nürburgring
 
 I didn't start in a CS classroom. I learned to code because I wanted to build real, dynamic systems. Coming from a background in operations and executive support, I naturally gravitate toward speed, rhythm, and precision in software engineering.
@@ -64,5 +64,4 @@ I didn't start in a CS classroom. I learned to code because I wanted to build re
 <div align="center">
   <img src="https://raw.githubusercontent.com/ksbn/ksbn/output/github-snowboard-slalom.svg" alt="Snowboarder Slalom Grid" />
 </div>
-  <img src="https://github.com/ksbn/ksbn/blob/output/github-contribution-grid-snake.svg" />
 </p>
